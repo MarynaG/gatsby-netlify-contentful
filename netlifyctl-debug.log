@@ -1,0 +1,11 @@
+[37mDEBU[0m[21 Jun 18 11:00 +0200] PreRun                                        [37marguments[0m=[public] [37mcommand[0m=deploy
+[37mDEBU[0m[21 Jun 18 11:00 +0200] configure debug middleware                   
+[37mDEBU[0m[21 Jun 18 11:00 +0200] configure logging middleware                 
+[37mDEBU[0m[21 Jun 18 11:00 +0200] setup logger middleware: panic               
+[37mDEBU[0m[21 Jun 18 11:00 +0200] configure auth middleware                    
+[37mDEBU[0m[21 Jun 18 11:00 +0200] setup credentials                             [37mcredentials[0m=0x146b000
+[37mDEBU[0m[21 Jun 18 11:00 +0200] configure client middleware                  
+[37mDEBU[0m[21 Jun 18 11:00 +0200] setup API endpoint                            [37mendpoint[0m="https://api.netlify.com"
+[37mDEBU[0m[21 Jun 18 11:00 +0200] configure site middleware                    
+[37mDEBU[0m[21 Jun 18 11:00 +0200] Parsed configuration: {Settings:{ID:6329e24e-6688-4879-9011-e3191fc7678a Path:} Build:{Publish: Functions:} Redirects:[] root:/Users/frederik/dev/gatsby-netlify-contentful filePath:netlify.toml} 
+[31mERRO[0m[21 Jun 18 11:00 +0200] command failed                                [31merror[0m="Error copying netlify.toml to the publish directory: ase-directory: open ase-directory/netlify.toml: no such file or directory"
