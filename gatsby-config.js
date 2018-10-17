@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-contentful',
       options: {
-        spaceId: CTF_SPACE_ID,
+        spaceId: SPACE,
         accessToken: TOKEN,
         host: HOST,
       },
